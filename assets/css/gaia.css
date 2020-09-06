@@ -169,6 +169,8 @@ a:hover {
   font-family: 'BluuNext-Bold';
   /*font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-weight: 600;
+  line-height: 0.9em;
+  padding: 0 0 0.3em 0;
 }
 
 .text-gray {
@@ -2019,6 +2021,10 @@ a,
 .content .title-area h1{
     font-size: 6em;
 }
+.content .title-area h3{
+    padding: 0 0 1.6em 0;
+}
+
 .section-header h5,
 .section-header-blog h5,
 .section-presentation-page h5 {
