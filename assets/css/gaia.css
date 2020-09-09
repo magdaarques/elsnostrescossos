@@ -2487,6 +2487,15 @@ a,
 .section-our-team-freebie {
   padding-bottom: 0;
 }
+
+.section-our-team-freebie .content .description .description{
+  text-align: left;
+  -webkit-hyphens: auto; 
+  -moz-hyphens: auto; 
+  -ms-hyphens: auto; 
+  hyphens: auto;
+}
+
 .section-get-started .container,
 .section-header-freebie .container,
 .section-our-team-freebie .container {
