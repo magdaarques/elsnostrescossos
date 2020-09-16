@@ -13,6 +13,21 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. */
 
 /*      light colors         */
+
+.filter.filter-color-red:before {
+/*   background-color: #fff;*/
+     -webkit-animation: random 5s infinite;
+     animation: random 5s infinite;
+}
+
+
+@keyframes  random {
+    0% { background-color: #d4ea30; } 
+    25% { background-color: #f56624; } 
+    50% { background-color: #00997d; } 
+    75% { background-color: #e573d2; }
+}
+
 html {
   font-size: 14px;
   -ms-text-size-adjust: 100%;
