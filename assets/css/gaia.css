@@ -1118,8 +1118,18 @@ a,
   background: #50236F;
 }
 .filter.filter-color-red:before {
-  background: #de6168;
+  /*   background: #de6168;*/
+     background-color: #fff;
+     -webkit-animation: random 6s infinite;
+     animation: random 6s infinite;
 }
+@keyframes  random {
+    0% { background-color: #d4ea30; } 
+    25% { background-color: #f56624; } 
+    50% { background-color: #00997d; } 
+    75% { background-color: #e573d2; }
+}
+
 .filter.filter-gradient-black:before {
   background: #1f1c2c;
   /* Old browsers */
