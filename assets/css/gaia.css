@@ -15,7 +15,7 @@
 /*      light colors         */
 
 .filter.filter-color-red:before {
-/*   background-color: #fff;*/
+  background-color: yellow;
      -webkit-animation: random 5s infinite;
      animation: random 5s infinite;
 }
