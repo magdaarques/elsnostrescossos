@@ -1119,7 +1119,7 @@ a,
 }
 .filter.filter-color-red:before {
   /*   background: #de6168;*/
-     background-color: #fff;
+     /*background-color: #fff;*/
      -webkit-animation: random 6s infinite;
      animation: random 6s infinite;
 }
